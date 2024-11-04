@@ -15,5 +15,8 @@ public class ExemploGrafo {
         grafo.adicionaAresta(1.0,"Paulo","Cleuza");
         grafo.adicionaAresta(2.0,"Claudio","Lorenzo");
         grafo.adicionaAresta(3.0,"Claudio","Paulo");
+
+        //System.out.println(grafo.buscaCaminho("Cleuza","Lorenzo"));
+        System.out.println(grafo.buscaCaminho("Lorenzo","Cleuza"));
     }
 }
